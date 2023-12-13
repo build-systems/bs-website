@@ -1,0 +1,213 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-content: flex-start;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-width: 0;
+  padding: 15px;
+}
+.freeBox__fFt3R {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-row-gap: 2vh;
+  grid-column-gap: 2vw;
+  grid-auto-rows: auto;
+  grid-auto-columns: 1fr;
+  min-width: 0;
+}
+@media (max-width: 834px) {
+  .freeBox__fFt3R {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-row-gap: 4vh;
+    grid-column-gap: 4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
+@media (max-width: 414px) {
+  .freeBox__fFt3R {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-left: 2vw;
+    padding-right: 2vw;
+    grid-row-gap: 6vh;
+  }
+}
+.freeBox__iriYb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+}
+.img__yo8KO {
+  object-fit: contain;
+  max-width: 100%;
+}
+.img__yo8KO > picture > img {
+  object-fit: contain;
+}
+.freeBox__axmS3 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__nG20O {
+  object-fit: contain;
+  max-width: 100%;
+}
+.img__nG20O > picture > img {
+  object-fit: contain;
+}
+@media (max-width: 414px) {
+  .img__nG20O {
+    max-width: 110%;
+  }
+}
+.freeBox__oaDEs {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__eMrK {
+  object-fit: scale-down;
+  max-width: 110%;
+  opacity: var(--token-z3eXnPHJQ17a);
+}
+.img__eMrK > picture > img {
+  object-fit: scale-down;
+}
+@media (max-width: 414px) {
+  .img__eMrK {
+    max-width: 115%;
+    align-self: flex-start;
+  }
+}
+.freeBox__amWUl {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__gV160 {
+  object-fit: contain;
+  max-width: 100%;
+  opacity: var(--token-z3eXnPHJQ17a);
+}
+.img__gV160 > picture > img {
+  object-fit: contain;
+}
+@media (max-width: 1280px) {
+  .img__gV160 {
+    flex-grow: 1;
+  }
+}
+.freeBox__rp3Wn {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__xPh9W {
+  object-fit: contain;
+  max-width: 100%;
+  opacity: var(--token-z3eXnPHJQ17a);
+}
+.img__xPh9W > picture > img {
+  object-fit: contain;
+}
+.freeBox__ntC07 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__qoc8U {
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__qoc8U > picture > img {
+  object-fit: cover;
+}
+.freeBox__cDuCh {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__vmWcs {
+  object-fit: contain;
+  max-width: 100%;
+}
+.img__vmWcs > picture > img {
+  object-fit: contain;
+}
+.freeBox__i0FLy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__ekInk {
+  object-fit: contain;
+  max-width: 100%;
+}
+.img__ekInk > picture > img {
+  object-fit: contain;
+}
