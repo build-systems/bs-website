@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'ABC Diatype';
+  src: 	url('/fonts/ABCDiatype-Medium.woff2') format( 'woff2' ),
+  url('/fonts/ABCDiatype-Medium.woff') format( 'woff' );
+  font-weight: normal;
+  font-display: normal;
+}
+
+@font-face {
+  font-family: 'ABC Diatype Mono';
+  src: 	url('/fonts/ABCDiatypeMono-Medium.woff2') format( 'woff2' ),
+  url('/fonts/ABCDiatypeMono-Medium.woff') format( 'woff' );
+  font-weight: normal;
+  font-display: normal;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
