@@ -1,15 +1,19 @@
 @font-face {
   font-family: 'ABC Diatype';
-  src: 	url('./fonts/ABCDiatype-Medium.woff2') format( 'woff2' ),
-  url('./fonts/ABCDiatype-Medium.woff') format( 'woff' );
+  src:
+    local("ABC Diatype"),
+    url('/fonts/ABCDiatype-Medium.woff2') format( 'woff2' ),
+    url('/fonts/ABCDiatype-Medium.woff') format( 'woff' );
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'ABC Diatype Mono';
-  src: 	url('./fonts/ABCDiatypeMono-Medium.woff2') format( 'woff2' ),
-  url('./fonts/ABCDiatypeMono-Medium.woff') format( 'woff' );
+  src:
+    local("ABC Diatype Mono"), 	
+    url('/fonts/ABCDiatypeMono-Medium.woff2') format( 'woff2' ),
+    url('/fonts/ABCDiatypeMono-Medium.woff') format( 'woff' );
   font-weight: 400;
   font-display: swap;
 }
