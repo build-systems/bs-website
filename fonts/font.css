@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "ABC Diatype";
+    src:
+      local("ABC Diatype"),
+      url("ABCDiatype-Medium.otf") format("opentype"),
+      url("ABCDiatype-Medium.woff") format("woff"),
+      url("ABCDiatype-Medium.woff2") format("woff2");
+  }
+
+@font-face {
+    font-family: "ABC Diatype Mono";
+    src:
+      local("ABC Diatype"),
+      url("ABCDiatypeMono-Medium.otf") format("opentype"),
+      url("ABCDiatypeMono-Medium.woff") format("woff"),
+      url("ABCDiatypeMono-Medium.woff2") format("woff2");
+  }
